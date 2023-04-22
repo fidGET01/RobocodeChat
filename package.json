@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidGET01/RobocodeChat.git"
+  },
+  "author": "Nazar Krasnobryzhev",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "crypto": "^1.0.1",
+    "socket.io": "^4.6.1",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
